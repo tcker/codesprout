@@ -51,3 +51,7 @@ git push -u origin your-branch-name
 ---
 
 ✅ That’s it! You’re ready to work on the project.
+
+# Detailed Conventional Commits
+
+### Click 👉 [conventional-commits](https://github.com/tcker/codesprout/blob/main/git-instructions/conventional-commits.md)

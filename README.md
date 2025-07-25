@@ -7,4 +7,4 @@ This project was created as part of the **CodeSprout Hackathon – August 2025 E
 
 # How to Use git?
 
-### Click 👉 [git-instructions](https://github.com/tcker/codesprout/tree/main/git-instructions)
+### Click 👉 [git-instructions](https://github.com/tcker/codesprout/blob/main/git-instructions/how-to-use-git.md)
