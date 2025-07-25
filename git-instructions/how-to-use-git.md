@@ -22,6 +22,7 @@ cd codesprout
 
 ```bash
 git checkout -b <your-branch-name>
+git switch <your-branch-name>
 ```
 
 ### 4. Make your changes, then add and commit
