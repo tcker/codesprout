@@ -1,16 +1,15 @@
-# 🚀 Git Guide for CodeSprout Repo
+# 🚀 Git Guide
 
-This guide will help you start pushing your changes to the GitHub repo:  
-👉 https://github.com/tcker/codesprout
+This guide will help you push your changes to a GitHub repository.
 
 ---
 
-## 🛠 How to start pushing changes
+## 🛠 How to Start Pushing Changes
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/tcker/codesprout.git
+git clone https://github.com/tcker/codesprout
 ```
 
 ### 2. Go into the project folder
@@ -19,30 +18,20 @@ git clone https://github.com/tcker/codesprout.git
 cd codesprout
 ```
 
-### 3. Make your changes, then add and commit
+### 3. Create a new branch for your changes
+
+```bash
+git checkout -b <your-branch-name>
+```
+
+### 4. Make your changes, then add and commit
 
 ```bash
 git add .
 git commit -m "commit: your message here"
 ```
 
-### 4. Push to the main branch
-
-```bash
-git push
-```
-
----
-
-## 🌿 Git Branching (Optional)
-
-### Create a new branch
-
-```bash
-git checkout -b your-branch-name
-```
-
-### Push your new branch to GitHub
+### 5. Push your branch to GitHub
 
 ```bash
 git push -u origin your-branch-name
@@ -50,8 +39,34 @@ git push -u origin your-branch-name
 
 ---
 
-✅ That’s it! You’re ready to work on the project.
+## 🌿 Git Branching Tips
 
-# Detailed Conventional Commits
+- List all local branches:
+```bash
+git branch
+```
 
-### Click 👉 [conventional-commits](https://github.com/tcker/codesprout/blob/main/git-instructions/conventional-commits.md)
+- Switch to an existing branch:
+```bash
+git checkout <branch-name>
+```
+
+- Pull the latest changes from main:
+```bash
+git pull origin main
+```
+
+---
+
+✅ That’s it! You’re now ready to collaborate and contribute.
+
+---
+
+## 📘 Detailed Conventional Commits
+
+Follow commit message conventions for clarity and consistency.  
+
+👉 [Conventional Commits Guide TL:DR](https://github.com/tcker/codesprout/blob/main/git-instructions/conventional-commits.md)
+
+👉 [Conventional Commits Guide](https://www.conventionalcommits.org/)
+
