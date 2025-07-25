@@ -35,7 +35,7 @@ git commit -m "commit: your message here"
 ### 5. Push your branch to GitHub
 
 ```bash
-git push -u origin your-branch-name
+git push -u origin <your-branch-name>
 ```
 
 ---
